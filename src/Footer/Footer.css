@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  font-family: "Anton", sans-serif;
+  padding: 10px;
+}
+li {
+  color: white;
+
+  font-weight: lighter !important;
+}
+.a {
+  color: white;
+  /* font-family: 'Anton' sans-serif !important; */
+}
+.a:hover {
+  color: cornflowerblue;
+}

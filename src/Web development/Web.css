@@ -1,0 +1,36 @@
+.courses {
+  width: 50%;
+  height: 90%;
+  margin-top: 80px;
+}
+.text-overlay3 {
+  position: relative;
+  transform: translate(-50%, -50%);
+  /* margin-left: 22px; */
+  background-color: rgb(179, 179, 195);
+  color: black;
+  line-height: 1;
+  cursor: all-scroll;
+  text-align: left;
+  /* margin-top: 550px; */
+  top: 15px;
+  /* color: black; */
+  font-weight: bolder;
+  font-size: 18px;
+  border-color: black;
+  width: 50%;
+}
+.text-overlay3:hover {
+  background-color: white;
+  font-size: 19px;
+  transition: background-color 0.6s ease-in;
+}
+.row4 {
+  margin-left: 80px;
+}
+.col4 {
+  border: 5px black;
+  padding: 25px;
+  border-style: solid;
+  border-radius: 15px;
+}

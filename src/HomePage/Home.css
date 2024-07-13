@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+.text-overlay {
+  position: absolute;
+  top: 70%;
+  left: 80px;
+  /* transform: translate(-50%, -50%); */
+  line-height: 1;
+  text-shadow: 2px 2px orange;
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+img {
+  height: 700px;
+}
+.button2,
+.button3 {
+  margin-top: 100px;
+  cursor: grabbing !important;
+  margin-left: 25px;
+  font-weight: bolder;
+  font-family: "Anton" sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  height: 100px;
+  width: 200px;
+  background-color: rgb(179, 179, 195);
+  color: black;
+  /* font-family: ; */
+  font-size: 19px;
+  margin-left: 120px;
+  border-radius: 17px;
+}
+.button2:hover,
+.button3:hover {
+  background-color: white;
+  transition: background-color 0.7s ease-in;
+}
+.button2:hover {
+  height: 100px;
+  width: 190px;
+  font-size: 17px;
+  border-radius: 22px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  height: 60px;
+  background-attachment: fixed;
+  border-radius: 0px 0px 7px 7px;
+}
+/* .row{
+  margin-left: 65px;
+} */
+.button3 {
+  margin-top: 20px;
+  width: 85%;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 50px;
+}
+.text-overlay2 {
+  color: black;
+  padding-left: 70px;
+  font-size: 28px;
+  text-align: center;
+  margin-left: 50px;
+}
+.text,
+.text1 {
+  margin-top: 80px;
+  position: relative;
+  top: 250px;
+  color: black;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.col3 {
+  background-color: cornflowerblue;
+}
+
+.row {
+  margin-top: 10px;
+}
+.tech {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px !important;
+  position: relative !important;
+  top: 20px !important;
+}
+.text1 {
+  top: 0px;
+  position: relative;
+}
+.text1:hover {
+  color: cornflowerblue;
+  text-shadow: 2px 2px black;
+}
+.carousel-item2 {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+.svg {
+  width: 100%;
+  margin-top: 0px !important;
+  height: 100%;
+}
+.cards {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.card1{
+  margin-left: 20px;
+  background-color: #bfbbaf;
+  height: 220px;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px !important;
+  /* box-shadow: 5px 5px 5px gray; */
+}
+.card2{
+  margin-left: 20px;
+  background-color: #a9e2f5;
+  height: 220px;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px !important;
+}
+.card3 {
+  margin-left: 20px;
+  background-color: #f8cbc5;
+  height: 220px;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px !important;
+}
+/* .card-body {
+  background-color: #2B3964;
+  text-align: center;
+
+  margin-left: ;
+} */
+.card-lnk1, .card-lnk2, .card-lnk3{
+  margin-top: 35px  !important;
+  position: relative;
+  top: 35px;
+  margin-left: 120px !important;
+  text-align: center !important;
+ 
+}
+.card-lnk1 { 
+  color: #201e1e;
+  font-size: 35px;
+  font-family: Candara;
+  font-weight: bolder;
+  margin-left: 35px;
+  text-align: center;
+  
+}
+.card-lnk2 { 
+  color: #201e1e;
+  font-size: 35px;
+  font-family: Candara;
+  font-weight: bolder;
+  margin-left: 35px;
+  text-align: center;
+  
+}
+.card-lnk3 { 
+  color: #201e1e;
+  font-size: 35px;
+  font-family: Candara;
+  font-weight: bolder;
+  margin-left: 35px;
+  text-align: center;
+  
+}
+.card:hover {
+  cursor: grab;
+  box-shadow: 5px 5px 5px gray;
+  margin-top: 15px;
+}
+.box {
+  margin-left: 80px;
+}
+.iconhome{
+  margin-left: 110px;
+  font-size: 50px !important;
+  color: white;
+  margin-top: 40px;
+
+}
+.hover:hover{
+  color: white;
+}
+.hover{
+  color: blue;
+}
+.iconhome{
+  color: #201e1e;
+}
